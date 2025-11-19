@@ -1,0 +1,27 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Expense Tracker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Products</h1>
+            <div class="input-group">
+                <label for="productName">Product Name:</label>
+                <input type="text" id="productName">
+            </div>
+            <div class="input-group">
+                <label for="sellingPrice">Selling Price:</label>
+                <input type="number" id="sellingPrice">
+            </div>
+            <button id="addProductBtn">Add Poduct</button>
+            <h2>Products List</h2>
+            <ul id="productList"></ul>
+            <h3>Total Value Worth of Products:Rs<span id="totalValue" >0</span></h3>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
